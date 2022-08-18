@@ -17,8 +17,8 @@ namespace SalesProject.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
-
+            ViewData["Message"] = "Projeto de vendas Web MVC utilizando linguagem C#.";
+            ViewData["GitHub"] = "https://github.com/mateusap";
             return View();
         }
 
